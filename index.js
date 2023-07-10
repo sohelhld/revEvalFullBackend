@@ -15,7 +15,7 @@ app.use("/api/restaurants",restaurantRouter)
 app.use("/api",orderRouter)
 
 
-app.listen(process.env.port,async()=>{
+app.listen(8000,async()=>{
 
     try {
         await connection
